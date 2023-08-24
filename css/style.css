@@ -1,5 +1,16 @@
+.epl {
+  margin-bottom: 20px;
+  text-align: right;
+  text-decoration: underline;
+  text-underline-position: under;
+}
+.epl :hover {
+  color: blue;
+  font-weight: bold;
+}
+
 .wrap {
-  padding: 6% 3%;
+  padding: 3% 3%;
 }
 
 .fc-prev-button {
@@ -53,9 +64,9 @@
   border: 1px solid #000 !important;
 }
 
-  .fc-daygrid-day-bottom {
-    color: blue !important;
-  }
+.fc-daygrid-day-bottom {
+  color: blue !important;
+}
 
 @media (max-width: 750px) {
   .fc-icon-chevron-left {
