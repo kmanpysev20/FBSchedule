@@ -10,7 +10,7 @@
 }
 
 .wrap {
-  padding: 3% 3%;
+  padding: 2% 2%;
 }
 
 .fc-prev-button {
@@ -50,6 +50,10 @@
 
 .fc-day-sat .fc-scrollgrid-sync-inner .fc-col-header-cell-cushion {
   color: blue !important;
+}
+
+.fc-direction-ltr .fc-list-table .fc-list-event-graphic {
+  padding : 8px 14px !important;
 }
 
 .fc-theme-standard .fc-scrollgrid {

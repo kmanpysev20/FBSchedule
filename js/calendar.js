@@ -4,7 +4,7 @@
     var calendarEl = $("#calendar")[0];
     // full-calendar 생성하기
     var calendar = new FullCalendar.Calendar(calendarEl, {
-      height: "82vh", // calendar 높이 설정
+      height: "86vh", // calendar 높이 설정6
       expandRows: true, // 화면에 맞게 높이 재설정
       slotMinTime: "08:00", // Day 캘린더에서 시작 시간
       slotMaxTime: "20:00", // Day 캘린더에서 종료 시간
@@ -16,7 +16,7 @@
         //   right: 'dayGridMonth,timeGridWeek,timeGridDay,listWeek'
       },
       initialView: "dayGridMonth", // 초기 로드 될때 보이는 캘린더 화면(기본 설정: 달)
-      // initialDate: '2023-08-15', // 초기 날짜 설정 (설정하지 않으면 오늘 날짜가 보인다.)
+      // initialDate: "2023-10-01", // 초기 날짜 설정 (설정하지 않으면 오늘 날짜가 보인다.)
       navLinks: true, // 날짜를 선택하면 Day 캘린더나 Week 캘린더로 링크
       editable: true, // 수정 가능?
       selectable: true, // 달력 일자 드래그 설정가능
@@ -51,63 +51,63 @@
       // 이벤트
       events: [
         {
-          title: "1.PSG04시",
+          title: "1.PSG 04시",
           start: "2023-08-13",
         },
         {
-          title: "2.미튈란21시",
+          title: "2.미튈란 21시",
           start: "2023-08-13",
         },
         {
-          title: "3.TOT22시",
+          title: "3.TOT 22시",
           start: "2023-08-13",
         },
         {
-          title: "1.뮌헨03시30분",
+          title: "1.뮌헨 03시30분",
           start: "2023-08-19",
         },
         {
-          title: "1.TOT01시30분",
+          title: "1.TOT 01시30분",
           start: "2023-08-20",
         },
         {
-          title: "2.PSG22시",
+          title: "2.PSG 22시",
           start: "2023-08-20",
         },
         {
-          title: "1.미튈란01시",
+          title: "1.미튈란 01시",
           start: "2023-08-21",
         },
         {
-          title: "1.TOT20시30분",
+          title: "1.TOT 20시30분",
           start: "2023-08-26",
         },
         {
-          title: "1.PSG04시",
+          title: "1.PSG 04시",
           start: "2023-08-27",
         },
         {
-          title: "1.뮌헨00시30분",
+          title: "1.뮌헨 00시30분",
           start: "2023-08-28",
         },
         {
-          title: "2.미튈란01시",
+          title: "2.미튈란 01시",
           start: "2023-08-28",
         },
         {
-          title: "1.TOT23시",
+          title: "1.TOT 23시",
           start: "2023-09-02",
         },
         {
-          title: "1.뮌헨01시30분",
+          title: "1.뮌헨 01시30분",
           start: "2023-09-03",
         },
         {
-          title: "1.미튈란03시",
+          title: "1.미튈란 03시",
           start: "2023-09-04",
         },
         {
-          title: "2.PSG03시45분",
+          title: "2.PSG 03시45분",
           start: "2023-09-04",
         },
         {
@@ -116,40 +116,105 @@
           end: "2023-09-13",
         },
         {
-          title: "1.미튈란02시",
+          title: "1.미튈란 02시",
           start: "2023-09-16",
         },
         {
-          title: "2.뮌헨03시30분",
+          title: "2.뮌헨 03시30분",
           start: "2023-09-16",
         },
         {
-          title: "3.TOT23시",
+          title: "3.TOT 23시",
           start: "2023-09-16",
         },
         {
-          title: "1.PSG22시",
+          title: "1.PSG 22시",
           start: "2023-09-17",
         },
         {
-          title: "1.뮌헨22시30분",
+          title: "1.뮌헨 22시30분",
           start: "2023-09-23",
         },
         {
-          title: "1.PSG22시",
+          title: "1.PSG 22시",
           start: "2023-09-24",
         },
         {
-          title: "2.TOT22시",
+          title: "2.TOT 22시",
           start: "2023-09-24",
         },
         {
-          title: "1.미튈란01시",
+          title: "1.미튈란 01시",
           start: "2023-09-25",
         },
-                {
-          title: "1.미튈란22시",
+        {
+          title: "1.미튈란 22시",
           start: "2023-09-30",
+        },
+        {
+          title: "1.뮌헨 01시30분",
+          start: "2023-10-01",
+        },
+        {
+          title: "1.TOT 01시30분",
+          start: "2023-10-01",
+        },
+        {
+          title: "2.PSG 03시",
+          start: "2023-10-01",
+        },
+        {
+          title: "1.TOT 20시30분",
+          start: "2023-10-07",
+        },
+        {
+          title: "1.PSG 03시",
+          start: "2023-10-08",
+        },
+        {
+          title: "1.뮌헨 00시30분",
+          start: "2023-10-09",
+        },
+        {
+          title: "2.미튈란 01시",
+          start: "2023-10-09",
+        },
+        {
+          title: "국대A매치",
+          start: "2023-10-10",
+          end: "2023-10-18",
+        },
+        {
+          title: "1.뮌헨 01시30분",
+          start: "2023-10-22",
+        },
+        {
+          title: "2.PSG 03시",
+          start: "2023-10-22",
+        },
+        {
+          title: "3.미튈란 22시",
+          start: "2023-10-22",
+        },
+        {
+          title: "1.TOT 04시",
+          start: "2023-10-24",
+        },
+        {
+          title: "1.TOT 04시",
+          start: "2023-10-28",
+        },
+        {
+          title: "2.뮌헨 22시30분",
+          start: "2023-10-28",
+        },
+        {
+          title: "1.PSG 03시",
+          start: "2023-10-29",
+        },
+        {
+          title: "2.미튈란 23시",
+          start: "2023-10-29",
         },
       ],
     });
